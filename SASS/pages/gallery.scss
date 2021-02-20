@@ -1,0 +1,42 @@
+.gallery-image {
+    border:2px solid $dark-gold;
+}
+.before-after-pic {
+    width:100%;
+    border:2px solid $dark-gold;
+}
+.btn-return {
+    background:$dark-gold;
+    color:$white;
+    font-family: 'Cinzel', serif;
+    padding: 1rem 2rem;
+    margin: 1.2rem 0 1.4rem 0;
+    border-radius: 0;
+    &:hover {
+        background:$darker-gold;
+        color:$white;
+    }
+    &:focus {
+        box-shadow: none;
+    }
+}
+.before-after-flash {
+    background:$light-gold;
+    color:$red-burgundy;
+    position: absolute;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    width: 100px;
+    height: 100px;
+    right: 15px;
+    // padding: 1rem 4rem;
+    //transform: rotate(-45deg);
+    // text-transform: uppercase;
+    // right: -2rem;
+}
+.before-after-text {
+    transform: rotate(45deg);
+    margin-top: 1.3rem;
+    margin-left: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}    

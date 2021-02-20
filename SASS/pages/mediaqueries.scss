@@ -1,0 +1,282 @@
+@media only screen and (max-width: 2150px){
+    .carousel-generic .carousel-item {
+        height: 44vh;
+    }
+}
+@media only screen and (max-width: 1450px){
+    .main-content-inner {
+        max-width: 1100px;
+    }
+    .fourtabbed .fourtabbedbox .fourtabbed-heading {
+        font-size: 0.85rem;
+        padding: 1rem 0.2rem;
+    }
+    .carousel-generic .carousel-item {
+        height: 30vh;
+    }
+    .page-title-underline-90 {
+        width: 28%;
+    }
+    .page-title-underline-52 {
+        width: 31%;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .carousel .carousel-item {
+        height: 34.5rem;
+    }
+    .navbar-nav .nav-item .nav-link {
+        padding: 1.21rem 0.95rem;
+        font-size: 0.9rem;
+    }
+    .carousel-generic .carousel-item {
+        height: 27vh;
+    }
+}
+@media only screen and (max-width: 1150px){
+    .carousel .carousel-item {
+        height: 32.5rem;
+    }
+    .carousel-generic .carousel-item {
+        height: 24vh;
+    }
+    .navbar-nav .nav-item .nav-link {
+        padding: 1.21rem 0.5rem;
+        font-size: 0.85rem;
+    }
+    .main-content-inner {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .page-title-underline-90 {
+        width: 20%;
+    }
+    .page-title-underline-52 {
+        width: 25%;
+    }
+    .fourtabbed .fourtabbedbox .fourtabbed-heading {
+        font-size: 0.75rem;
+        padding: 1rem 0.2rem;
+    }
+    .page-title {
+        width: 32%;
+        display: inline;
+    }
+    .footer p {
+        font-size: 0.85rem;
+    }
+    .footer ul li {
+        font-size: 0.85rem;
+    }
+}
+@media only screen and (max-width: 991px){
+    .carousel .carousel-item {
+        height: 28.5rem;
+    }
+    .carousel-generic .carousel-item {
+        height: 21.5vh;
+    }
+    .navbar {
+        background-color:transparent;
+        background-image:url(/images/header-bg.png);
+        background-repeat:repeat-x;
+    }
+    .navbar-nav .active > .nav-link {
+        background: $dark-burgundy;
+        color: rgb(199, 166, 123) !important;
+    }
+    .navbar-nav .nav-item .nav-link {
+        background: $dark-burgundy;
+        border-bottom:1px solid #4e2018;
+        padding: 0.95rem 0.5rem;
+        font-size: 0.95rem;
+    }
+    .page-title {
+        width: 40%;
+        display: inline;
+    }
+    .page-title-underline-90 {
+        width: 20%;
+    }
+    .top-header .logo {
+        margin-top: 0.4rem;
+    }
+    .top-header {
+        height: 167px;
+    }
+    .fourtabbed .fourtabbedbox {
+        height: auto;
+    }
+    .fourtabbed .fourtabbedbox .fourtabbed-heading {
+        font-size: 0.95rem;
+        padding: 1rem 0.4rem;
+        margin-bottom: 1rem;
+    }
+    .main-nav-toggle {
+        position: relative;
+    }
+    .footer ul {
+        margin-top: 4.3rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    .carousel .carousel-item {
+        height: 24.5rem;
+    }
+    .top-header .logo {
+        width: 520px;
+    }
+    .footer ul {
+        text-align: left;
+        margin-left: -38px;
+    }
+    .web-design {
+        text-align:left;
+    }
+}
+@media only screen and (max-width: 767px){
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        display: none;
+    }
+    .carousel-generic .carousel-item {
+        height: 14vh;
+    }
+    .page-title {
+        width: 59%;
+        display: inline;
+    }
+    .page-title-underline-90 {
+        width: 15%;
+    }
+    .footer .footer-icons-right {
+        text-align: left;
+    }
+    .footer i {
+        margin-left: 0rem;
+        margin-right: 0.6rem;
+        margin-bottom:1.5rem;
+    }
+    .footer ul {
+        margin-top: 0rem;
+    }
+}
+@media only screen and (max-width: 620px){
+    .top-header .logo {
+        width: 100%;
+    }
+    .top-header .top-header-links {
+        display:none;
+    }
+    .mobile-header-links {
+        display:block;
+    }
+    .top-header .logo img {
+        padding-top: 0.7rem;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .top-header {
+        height: 108px;
+    }
+    .page-title {
+        width: 95%;
+    }
+    .page-title-underline-90 {
+        width: 5%;
+    }
+    .page-title-52 {
+        width: 100%;
+    }
+    .page-title-underline-52 {
+        width: 15%;
+    }
+    .hamburger {
+        padding: 10px 10px 4px 10px;
+    }
+    .generic-heading-large {
+        font-size: 2.1rem;
+    }
+    .footer {
+        padding: 2.8rem 0px 6.5rem 0;
+    }
+    .top-header {
+        height: auto;
+    }
+    .top-header p {
+        margin-bottom:0;
+    }
+}
+@media only screen and (max-width: 480px){
+    .top-header .logo {
+        width: 92%;
+    }
+    .top-header .logo img {
+        width: 100%;
+    }
+    .top-header .strapline {
+        font-size: 1.03rem;
+        padding: 0px 2rem;
+        margin-top: 0.7rem;
+        line-height: 1.4rem;
+    }
+    .generic-heading-large {
+        font-size: 1.75rem;
+        margin-top: 1.2rem;
+        margin-bottom: 1.3rem;
+    }
+    .carousel .carousel-item {
+        // height: 30.2rem;
+        height:52vh;
+    }
+    .home-heading-large {
+        font-size: 1.6rem;
+    }
+    .footer .footer-logo {
+        width: 100%;
+    }
+    .mobile-header-links .tel {
+        width: 170px;
+    }
+    .carousel {
+        width: 99.7%;
+    }
+    .navbar-nav .nav-item .nav-link {
+        padding: 1.1rem 0.5rem;
+    }
+    .heading:before, .heading:after {
+        display:none;
+        margin: 0px 0px;
+    }
+    h1, h3 {
+        display:block;
+    }
+}
+@media only screen and (max-width: 414px){
+    .carousel-generic .carousel-item {
+        height: 10vh;
+    }
+    .mobile-header-links .tel {
+        width: 45%;
+    }
+    .mobile-header-links .tel {
+        font-size: 0.85rem;
+        padding: 0.3rem 1.3rem 0.3rem 2.4rem;
+    }
+    .mobile-header-links i {
+        font-size: 1.1rem;
+    }
+    .top-header .strapline {
+        font-size: 0.94rem;
+        padding: 0px 0.9rem;
+    }
+    .generic-heading-large {
+        font-size: 1.5rem;
+    }
+    .page-title-underline {
+        width: 25%;
+        margin-top: 1.99rem;
+    }
+}
+
+
